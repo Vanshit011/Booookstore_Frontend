@@ -1,0 +1,123 @@
+.navbar {
+	width: 100%;
+	height: 70px;
+	background-color: #3bb19b;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.navbar h1 {
+	color: white;
+	font-size: 25px;
+	margin-left: 20px;
+}
+
+.white_btn {
+	border: none;
+	outline: none;
+	padding: 12px 0;
+	background-color: white;
+	border-radius: 20px;
+	width: 120px;
+	font-weight: bold;
+	font-size: 14px;
+	cursor: pointer;
+	margin-right: 20px;
+}
+
+
+/* BookList.css */
+
+.booklist {
+	max-width: 1200px;
+	margin: 20px auto;
+	padding: 20px;
+	background-color: #f9f9f9;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .booklist h2 {
+	text-align: center;
+	color: #333;
+  }
+  
+  .bookgrid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	gap: 20px;
+  }
+  
+  .bookcard {
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+  }
+  
+  .bookimage {
+	width: 100%;
+	border-radius: 10px;
+  }
+  
+  .bookdetails {
+	flex: 1;
+  }
+  
+  .booktitle {
+	font-size: 1.2rem;
+	margin-bottom: 5px;
+	color: #333;
+  }
+  
+  .bookauthor {
+	color: #666;
+	margin-bottom: 5px;
+  }
+  
+  .bookdescription {
+	margin-bottom: 10px;
+  }
+  
+  .bookprice {
+	font-weight: bold;
+	margin-bottom: 10px;
+  }
+  
+  .booklink {
+	color: #007bff;
+	text-decoration: none;
+	transition: color 0.3s;
+  }
+  
+  .booklink:hover {
+	color: #0056b3;
+  }
+  
+  .book_form {
+	display: flex;
+	flex-direction: column;
+	margin: 20px 0;
+  }
+  
+  .book_form input {
+	margin-bottom: 10px;
+	padding: 8px;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+  }
+  
+  .book_form button {
+	align-self: flex-start;
+  }
+  
+  .book_list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 16px;
+	margin-top: 20px;
+  }

@@ -1,10 +1,10 @@
 import axios from 'axios';
-import React, { useEffect, useState } from 'react';
+import React, {  useState } from 'react';
 import styles from '../Book/styles.module.css';
 
 const UpdateBookModal = ({ onClose }) => {
     const [books, setBooks] = useState([]);
-    const [showForm, setShowForm] = useState(false);
+    const [ setShowForm] = useState(false);
     const [formData, setFormData] = useState({
         title: '',
         author: '',
@@ -13,7 +13,6 @@ const UpdateBookModal = ({ onClose }) => {
         bookimage: '',
     });
 
-    // create book logic
     const handleInputChange = (e) => {
         const { name, value } = e.target;
         setFormData(prevState => ({
